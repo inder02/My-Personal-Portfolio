@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inder - Web developer</title>
+</head>
+<link rel="stylesheet" href="style.css">
+<script src="https://kit.fontawesome.com/8313f533cf.js" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+<body>
+   <div id="header">
+    <div class="container">
+        <nav>
+            <img src="logo.png" alt="" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>Mern Stack developer</p>
+            <h1>Hi, I'm <span>Inder</span><br> From India</h1>
+        </div>
+    </div>
+   </div>
+   <div id="cursur"></div>
+   <div id="cursur-blur"></div>
+   <!-- ------------testing----------- -->
+<div id="page">
+    <div id="scroller">
+        <div id="scroller-in">
+            <h4>Home</h4> 
+            <h4>About </h4>
+            <h4>Services </h4>
+            <h4>Portfolio </h4>
+            <h4>Contact</h4>
+
+        </div>
+        <div id="scroller-in">
+            <h4>Home</h4> 
+            <h4>About </h4>
+            <h4>Services </h4>
+            <h4>Portfolio </h4>
+            <h4>Contact</h4>
+
+        </div>
+    </div>
+</div>
+   <!-- ------------testing----------- -->
+<!-- -----------about------------ -->
+   <div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="user.png" alt="">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Unde deleniti iure, aut quibusdam, nam repellendus autem vel, possimus recusandae corrupti nulla deserunt dolorem ea quas sed dolorum aliquam assumenda! Illo, iusto qui, reiciendis mollitia libero enim exercitationem iste deserunt illum earum, totam facere inventore expedita veritatis beatae impedit non dolores!
+                </p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>WEB DEV</span><br>MERN Stack Developer</li>
+                        <li><span>WEB DEV</span><br>MERN Stack Developer</li>
+                        <li><span>WEB DEV</span><br>MERN Stack Developer</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>2023-</span><br>MERN Stack Developer</li>
+                        <li><span>2023-</span><br>MERN Stack Developer</li>
+                        <li><span>2023-</span><br>MERN Stack Developer</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2023</span><br>Engineering in Jc university</li>
+                        <li><span>2023</span><br>Web Devlopment from Apna College</li>
+                        <li><span>2023</span><br>DSA by Coding Wallah</li>
+                    </ul>
+                </div>
+            </div>
+            
+
+        </div>
+    </div>
+   </div>
+<!-- ------------------------services--------------------- -->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Developer</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis eius doloremque harum, perferendis voluptas laudantium vel ducimus dignissimos cum!</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-crop-simple"></i>
+                <h2>Frontend Developer</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis eius doloremque harum, perferendis voluptas laudantium vel ducimus dignissimos cum!</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-app-store-ios"></i>
+                <h2>Mern Stack Developer</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis eius doloremque harum, perferendis voluptas laudantium vel ducimus dignissimos cum!</p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- ----------------portfolio------------ -->
+<div id="portfolio">
+    <div class="container">
+        <h2 class="sub-title">My Work</h2>
+        <div class="work-list">
+            <div class="work">
+                <img src="work-1.png" alt="" srcset="">
+                <div class="layer">
+                    <h3>Social Media App</h3>
+                    <p>This app connects you to the talented peoples around the world.
+                        Download it from play store.
+                    </p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="work-2.png" alt="" srcset="">
+                <div class="layer">
+                    <h3>Music app</h3>
+                    <p>This app helps you to build your own loved playlist of all the songs around the world.
+                    </p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="work-3.png" alt="" srcset="">
+                <div class="layer">
+                    <h3>Ecommerse Website</h3>
+                    <p>This app helps you to shop your daily essential from this website all over the world brands.
+                    </p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+<!-- --------------------contact--------------- -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>inder.eit.21cse57@gmail.com</p>
+                <p><i class="fa-solid fa-square-phone"></i>8459159687</p>
+                <div class="social-icons">
+                    <a href=""><i class="fa-brands fa-facebook"></i></a>
+                    <a href=""><i class="fa-brands fa-twitter-square"></i></a>
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="Inder_Resume.pdf"  download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="your name" required> 
+                    <input type="email" name="Email" placeholder="Your email" required>
+                    <textarea name="Message" rows="6" placeholder="Your message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>copyright © Inder. Made with <i class="fa-solid fa-heart"></i></p>
+    </div>
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/gsap.min.js" integrity="sha512-EZI2cBcGPnmR89wTgVnN3602Yyi7muWo8y1B3a8WmIv1J9tYG+udH4LvmYjLiGp37yHB7FfaPBo8ly178m9g4Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/ScrollTrigger.min.js" integrity="sha512-OzC82YiH3UmMMs6Ydd9f2i7mS+UFL5f977iIoJ6oy07AJT+ePds9QOEtqXztSH29Nzua59fYS36knmMcv79GOg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="app.js"></script>
+</body>
+</html>
